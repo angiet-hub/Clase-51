@@ -124,3 +124,7 @@ const palabrasConcatenadas = (stringParcial, item) => {
 
 const stringFinal = palabras.reduce(palabrasConcatenadas, "") // le indico que el primer stringParcial es un string vacío al que le iré concatenando los items....
 
+
+const aNumeroMayor = (mayor, numero) => numero > mayor ? numero : mayor
+
+numeros.reduce(aNumeroMayor)
